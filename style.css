@@ -42,14 +42,23 @@
 #home {
   display: flex;
   flex-direction: column;
+  background-color: rgba(rgba(255, 0, 0, 0));
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 #home ::before {
   content: '';
   position: absolute;
   top: 0;
   right: 0;
-  background: url('image.jpg') no-repeat center center/cover;
+  background: url('img.jpg') no-repeat center center/cover;
   height: 900px;
   width: 100%;
   z-index: -1;
+}
+.main {
+  display: flex;
+  flex-direction: column;
 }
