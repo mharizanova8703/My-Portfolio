@@ -27,3 +27,29 @@
   padding: 8px 25px;
   transition: 2s;
 }
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 5px white;
+}
+
+.headings {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  text-align: center;
+  margin: 40px 0px;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+}
+#home ::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('image.jpg') no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+}
