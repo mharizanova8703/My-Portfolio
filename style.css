@@ -126,3 +126,8 @@
   padding: 15px;
   border-radius: 50%;
 }
+#services {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
