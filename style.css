@@ -50,6 +50,7 @@
   height: 700px;
   width: 40%;
   z-index: -1;
+  transform: scaleX(-1);
 }
 .main {
   display: flex;
