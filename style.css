@@ -167,4 +167,20 @@
   box-sizing: border-box;
   background-color: black;
   color: white;
+  padding: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 20px 0px;
+}
+.input {
+  padding: 12px;
+  margin: 15px;
+  width: 30%;
+}
+#msg{
+  
 }
