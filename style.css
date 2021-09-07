@@ -92,7 +92,7 @@ html {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 20px;
   margin-bottom: 50px;
 }
 #pic {
@@ -120,8 +120,12 @@ html {
   color: white;
   align-items: center;
   padding: 20px;
+}
+.gallery {
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  box-sizing: border-box;
 }
 
 .gallery img {
@@ -132,6 +136,7 @@ html {
   image-resolution: 15px;
   margin: 40px;
 }
+
 #services {
   display: flex;
   flex-direction: column;
