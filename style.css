@@ -206,8 +206,13 @@ html {
   cursor: pointer;
   box-shadow: 0 0 10px white;
 }
+.sub-title {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 @media (max-width: 530px) {
-  /*For mobile phones:*/
+  /*For mobile phones: */
   #home {
     height: 820px;
   }
