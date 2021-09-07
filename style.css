@@ -62,32 +62,14 @@ html {
   border: 1px white;
   align-items: center;
   position: absolute;
-
-  top: 30%;
-  right: 10%;
+  top: 70%;
+  right: 02%;
 }
 .headings {
   font-family: 'Times New Roman', Times, serif;
   font-size: 3rem;
   text-align: center;
   margin: 40px 0 px;
-}
-.btn {
-  padding: 15px 40px;
-  background-color: transparent;
-  border: 1px solid black;
-  color: white;
-  outline: none;
-  transition: 0.6s ease;
-  border-radius: 8px;
-  font-size: 15px;
-}
-.btn:hover {
-  cursor: pointer;
-  background-color: white;
-  color: white;
-  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
-  font-weight: bold;
 }
 
 #about {
