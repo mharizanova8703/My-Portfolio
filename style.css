@@ -206,6 +206,7 @@ html {
   box-shadow: 0 0 10px white;
 }
 @media (max-width: 530px) {
+  /*For mobile phones:*/
   #home {
     height: 820px;
   }
@@ -239,6 +240,7 @@ html {
   }
 }
 @media (max-width: 800px) {
+  /*For Desktop: */
   .navbar ul {
     flex-wrap: wrap;
     justify-content: center;
